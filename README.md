@@ -15,10 +15,14 @@ This is a simple, responsive navigation bar that collapses into a hamburger menu
   - **Flexbox** is used for layout and alignment.
   - Media queries ensure responsive behavior.
   - Hover effects add a layer of interactivity.
+- **Bootstrap**: Provides the responsive styles.
 - **JavaScript**: A small script to toggle the visibility of the navigation menu on mobile devices.
 
 ## File Structure
-
+Assets/css
+Assets/images
+Assets/js
+index.html
 
 
 ## How It Works
@@ -27,7 +31,7 @@ This is a simple, responsive navigation bar that collapses into a hamburger menu
    - Links have a hover effect that changes their color to provide visual feedback.
 
 2. **Mobile View**: 
-   - The navigation bar switches to a hamburger menu for smaller screens (below 768px width).
+   - The navigation bar switches to a hamburger menu for smaller screens (below 990px width).
    - When the hamburger icon is clicked, the navigation links are displayed in a vertical dropdown.
    - The dropdown can be toggled on and off using a simple JavaScript function.
 
@@ -37,4 +41,4 @@ To run this project locally:
 2. Open the `index.html` file in any modern web browser.
 
 ```bash
-git clone 
+git clone https://github.com/balagasri/Mega-menu.git
